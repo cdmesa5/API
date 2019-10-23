@@ -15,5 +15,3 @@ def postOne():
     print("predios post")
     body = request.json
     return (Predio.create(body))
-
-app.run(port=5000,debug=True)
